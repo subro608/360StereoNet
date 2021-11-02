@@ -1,6 +1,8 @@
 # Implementation Details
 First downlaod the pre-trained models from the link https://drive.google.com/drive/folders/1zB0nqYtI7ybksKTpzFjDH5ndNGuZSq8N?usp=sharing.
-Then arrange the downloaded files as shown below.
+Then arrange the downloaded files as shown below. Also the report for the project can be found in the same link.
+
+
 'main.py' -> 'main.py' that trains, validates and tests the model and also saves the validation-loss, optimizer-state and model weights as checkpoints for each epoch.
 
 'dataloader/Newdepthloader.py' -> loads the left and right ERP image files along with their corresponding depth map files and groups them into train, validation and test set.
