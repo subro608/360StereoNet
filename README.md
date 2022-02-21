@@ -16,6 +16,7 @@ of Navier-Stokes image-inpainting method on the ground truth depth maps of the 3
 It has been discussed before that the ground truth depth maps contain holes or invalid values due to rendering issues and so in order to remove these invalid values, we use image inpainitng. Image inpainting is a set of algorithms in computer vision which are used to fill regions in an image or video. In order to
 identify the regions to fill in, a binary mask is created where the regions to be filled as the high value is considered as and the rest of the region is denoted as (0). In order to do the filling, the values are taken from the boundaries of the region to be filled. For our work we consider the Navier-Stokes
 equations which are used in fluid dynamics, for image inpainting.
+
 ![alt text](original_train (1) (1) (1) (1).png "File or").
 ![alt text](original_train_new (4) (1).png "File inp").
 
