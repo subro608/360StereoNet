@@ -10,6 +10,7 @@ Let Z be the depth for a particular pixel, Y be the disparity at that point and 
 #Proposed Work
 In this work we have proposed to use the PSMNet disparity estimation model for generating depth from stereoscopic ERP images. Also the dataset used in this process is 3D60 and the ground truth depth maps of the dataset contain invalid values. In order to remove these invalid values we propose the use
 of Navier-Stokes image-inpainting method on the ground truth depth maps of the 3D60 dataset. 
+
 ![alt text](Untitled Diagram.drawio.png "File PSMNET").
 
 # Image inpainting
@@ -18,6 +19,7 @@ identify the regions to fill in, a binary mask is created where the regions to b
 equations which are used in fluid dynamics, for image inpainting.
 
 ![alt text](original_train (1) (1) (1) (1).png "File or").
+
 ![alt text](original_train_new (4) (1).png "File inp").
 
 
