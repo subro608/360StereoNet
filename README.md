@@ -38,7 +38,7 @@ Output,
 ![test_imageinpaint5 (1)](https://user-images.githubusercontent.com/46515291/155023645-42e09386-e86c-41b8-96df-3c5137f7f029.png)
 
 # Implementation Details
-First arrange the downloaded files as shown below. Also the report for the project can be found in the same link.
+First arrange the downloaded files as shown below. Also the report for the project can be found in the link https://drive.google.com/file/d/1VP8KvXg0D4UI8LK15U2zgoYGu0olbo2l/view?usp=sharing.
 
 
 'main.py' -> 'main.py' that trains, validates and tests the model and also saves the validation-loss, optimizer-state and model weights as checkpoints for each epoch.
